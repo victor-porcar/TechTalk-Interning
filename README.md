@@ -1,5 +1,6 @@
  # Tech Talk: Interning
 
+Interning is a way to optimise memory usage in specific scenarios by reusing the same instance in the context of immutable objects.
 
 
 *   [Introduction](#InterningLibrary-Introduction)
@@ -7,13 +8,7 @@
 *   [Interning process](#InterningLibrary-Interningprocess)
 *   [Interner](#InterningLibrary-Interner)
 
-Introduction
-------------
-
-Interning is a way to optimise memory usage in specific scenarios by reusing the same instance in the context of immutable objects.
-
-Example
--------
+## Introduction
 
 Let’s see how it works by using a real example:
 
